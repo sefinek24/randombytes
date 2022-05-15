@@ -12,7 +12,7 @@ function oldBrowser() {
 	throw new Error('Secure random number generation is not supported by this browser.\nUse Chrome, Firefox or Internet Explorer 11');
 }
 
-const Buffer = require('safe-buffer').Buffer;
+const { Buffer } = require('safe-buffer');
 const crypto = global.crypto || global.msCrypto;
 
 if (crypto && crypto.getRandomValues) {
