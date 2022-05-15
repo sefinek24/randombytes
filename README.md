@@ -4,7 +4,7 @@
 
 ### Updated version of https://github.com/crypto-browserify/randombytes.
 
-## Info
+## Description
 randombytes from node that works in the browser. In Node, you just get crypto.randomBytes, but in the browser it uses .crypto/msCrypto.getRandomValues
 
 ```js
