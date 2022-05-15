@@ -1,7 +1,7 @@
 {
   "name": "randombytes",
   "version": "2.1.1",
-  "description": "Random bytes from browserify stand alone",
+  "description": "Random bytes from browserify stand alone.",
   "main": "index.js",
   "scripts": {
     "test": "standard && node test.js | tspec"
