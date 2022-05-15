@@ -1,5 +1,5 @@
 {
-  "name": "randombytes",
+  "name": "@sefinek/randombytes",
   "version": "2.1.1",
   "description": "Random bytes from browserify stand alone.",
   "main": "index.js",
